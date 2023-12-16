@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- HTML comments must be like this... -->
+<html>
+<head>
+    <title>Places to Travel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="icons/smiley.png" />
+
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <link href="style/NavRouter.css" rel="stylesheet" type="text/css" />
+
+    <link href="style/Mynav.css" rel="stylesheet" type="text/css" />
+    <link href="style/TourGuide.css" rel="stylesheet" type="text/css" />
+    <link href="style/SuitCaseList.css" rel="stylesheet" type="text/css" />
+
+    <link href="style/slideShow.css" rel="stylesheet" type="text/css" />
+
+    <link href="style/clickSort.css" rel="stylesheet" type="text/css" />
+    <link href="style/editArea.css" rel="stylesheet" type="text/css" />
+    <link href="style/insertEditList.css" rel="stylesheet" type="text/css" />
+
+    <style>
+    </style>
+</head>
+<body>
+    <div id="titleNav">
+        <div id="title">
+            Travel Places for the Summer 
+        </div>
+        <div id="nav">
+
+        </div>
+    </div>
+    <div id="content">
+
+        <!-- HTML comment:
+            The content div is empty. It will get content "injected into it"
+            by the NavRouter component.
+        -->
+
+    </div> <!-- end of content area -->
+    <div id="footer">
+        Juan Navarro
+    </div>
+
+    <script>
+        // Prevent browser from (globally) auto-declaring
+        // any referenced variable that was never declared.
+        "use strict";
+    </script>
+
+    <!-- Suggest you keep these in the same order as you see them in the NB project pane -->
+    <script src="js/reusable/MakeNavRouter.js"></script>
+    <script src="js/reusable/MakeTourGuide.js"></script>
+    <script src="js/reusable/MakeSuitCaseList.js"></script>
+    <script src="js/reusable/MakeClickSortTable.js"></script>
+    <script src="js/reusable/MakeEditArea.js"></script>
+    <script src="js/reusable/MakeInsertEditDeleteList.js"></script>
+    <script src="js/reusable/MakeTag.js"></script>
+    <script src="js/reusable/SortableTableUtils.js"></script>
+    <script src="js/reusable/MakeSlideShow.js"></script>
+    <script src="js/reusable/ajax.js"></script>
+    <script src="js/reusable/MakeRadio.js"></script>
+
+    <script src="js/content/TourGuideContent.js"></script>
+    <script src="js/content/blogContent.js"></script>
+    <script src="js/content/homeContent.js"></script>
+    <script src="js/content/registerContent.js"></script>
+    <script src="js/content/SuitCaseListContent.js"></script>
+    <script src="js/content/slideShowContent.js"></script>
+    <script src="js/content/UserContent.js"></script>
+    <script src="js/content/RestaurantContent.js"></script>
+    <script src="js/content/EditListContent.js"></script>
+
+
+
+
+    <script>
+
+        // Home | Account | Search | Tutorial | Blog
+
+        var myNavList = [
+
+            // action attribute is a function name - no quotes aroudnd home.
+            { linkText: "Home", linkURL: "#/home", action: homeContent },
+            {
+                header: "Account",
+                subMenu: [
+
+                    // These links show up in nav bar but not functional because
+                    // no linkURL and action.
+                    { linkText: "Register", linkURL: "#/register", action: registerContent },
+                    { linkText: "Log In" },
+                    { linkText: "Log Out" },
+                    { linkText: "Profile" }
+                ]
+            },
+            {
+                header: "Search",
+                subMenu: [
+                    { linkText: "My Objects", linkURL: "#/TourGuide", action: TourGuideContent },
+                    { linkText: "My Object List", linkURL: "#/SuitCase", action: SuitCaseListContent },
+                    { linkText: "Slide Show", linkURL: "#/slideShow", action: slideShowContent },
+                    { linkText: "Users", linkURL: "#/users", action: UserContent },
+                    { linkText: "Restaurants", linkURL: "#/restaurants", action: RestaurantContent },
+                    { linkText: "React", linkURL: "#/react", action: "ReactSite/reactIndex.html" },
+                    { linkText: "Editable List", linkURL: "#/editableList", action: EditListContent }
+
+                ]
+            },
+
+            {
+                header: "Tutorial",
+                subMenu: [
+                    { linkText: "Proposal", linkURL: "#/proposal", action: "tutorial/proposal.pdf" },
+                    { linkText: "Proof Of Concept", linkURL: "#/tutPOC", action: "tutorial/poc.html" },
+                    { linkText: "Demo", linkURL: "#/tutDemo", action: "tutorial/download/demo.html" },
+                    { linkText: "Tutorial Home", linkURL: "#/tutHome", action: "tutorial/index.html" }
+                ]
+            },
+
+            // action attribute is a function name - no quotes around blog.
+            { linkText: "Blog", linkURL: "#/blog", action: blogContent }
+        ];
+
+        var myNav = MakeNavRouter({
+            navId: "nav", // this is where the nav bar will be injected
+            navList: myNavList, // the list of link objects (linkText, linkURL, actions)
+            contentId: "content", // the id where content is to be injected
+            startLink: "#/home"     // routing will set this as the first link.
+        });
+
+    </script>
+</body>
+</html>

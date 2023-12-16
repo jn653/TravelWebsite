@@ -1,0 +1,49 @@
+﻿
+.SuitCaseList {
+    background-color: springgreen;
+    border-radius: 0.25rem;
+    margin: 1rem;
+    padding: 1rem;
+    color:black;
+}
+
+    .SuitCaseList .SuitCaseHolder {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    
+
+
+    .SuitCaseList .suitCase {
+        background-color: lightgrey;
+        border-radius: 0.25rem;
+        padding: 0.5rem;
+        margin: 1%;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 98%;
+    }
+
+    
+        .SuitCaseList .suitCase .icon {
+            width: 2.00rem;
+            
+        }
+
+        .SuitCaseList .suitcase .SuitCaseImg {
+            width: 3rem;
+        }
+
+
+/* this is for desktop mode*/
+@media only screen and (min-width: 30rem) {
+    .SuitCaseList .SuitCaseHolder {
+        flex-direction: row;
+    }
+
+    .SuitCaseList .suitcase {
+        width: 23%;
+    }
+}

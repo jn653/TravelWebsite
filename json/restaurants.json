@@ -1,0 +1,99 @@
+[
+  {
+    "customer_price_would_pay": "80",
+    "pic": "https://th.bing.com/th/id/OIP.qVKl_8fDoRF1n_ssU4S_xAHaE7?w=246&h=180&c=7&r=0&o=5&pid=1.7",
+    "image": "http://cis-linux2.temple.edu/~sallyk/_pics/sk_07_17.png",
+    "price": "100",
+    "busiest_day": "monday",
+    "rating": "5/10",
+    "webUserId": "1",
+    "userEmail": "sallyk",
+    "favoriteFood": "cake",
+    "ageGroup": "55"
+
+  },
+  {
+    "customer_price_would_pay": "60",
+    "pic": "https://th.bing.com/th/id/OIP.Ku2-rWzzLY8ZBWxVHY8LPQHaE7?w=246&h=180&c=7&r=0&o=5&pid=1.7",
+    "image": "https://hairstyles.thehairstyler.com/hairstyle_views/front_view_images/6986/original/Ben-Affleck.jpg",
+    "price": "120",
+    "busiest_day": "friday",
+    "rating": "4.5/10",
+    "webUserId": "2",
+    "userEmail": "benAffleck@rehab.com",
+    "favoriteFood": "fries",
+    "ageGroup" :  "51"
+  },
+  {
+    "customer_price_would_pay": "85",
+    "pic": "https://th.bing.com/th/id/OIP.R8Ptsy_h1TQ0iIR1dpZDDQHaE3?w=263&h=180&c=7&r=0&o=5&pid=1.7",
+    "image": "https://i.pinimg.com/originals/55/08/a0/5508a0d858023e758892f09f35b53c93.jpg",
+    "price": "100",
+    "busiest_day": "monday",
+    "rating": "7.5/10",
+    "webUserId": "5",
+    "userEmail": "jenGarner@hollywood.com",
+    "favoriteFood": "soup",
+    "ageGroup": "49"
+  },
+  {
+    "customer_price_would_pay": "90",
+    "pic": "https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/vwN7oz6J-asil-dubai6-1-1200x900.jpg",
+    "image": "https://www.iceposter.com/thumbs/G339317_b.jpg",
+    "price": "60",
+    "busiest_day": "thursday",
+    "rating": "10/10",
+    "webUserId": "6",
+    "userEmail": "oprah@talk.com",
+    "favoriteFood": "ribs",
+    "ageGroup": "60"
+  },
+  {
+    "customer_price_would_pay": "25",
+    "pic": "https://th.bing.com/th/id/OIP.Y_0vuJfivgUvGPDk0q6ukAHaE7?w=260&h=180&c=7&r=0&o=5&pid=1.7",
+    "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/abha.jpg",
+    "price": "200",
+    "busiest_day": "saturday",
+    "rating": "1/10",
+    "webUserId": "11",
+    "userEmail": "abha@temple.edu",
+    "favoriteFood": "soup",
+    "ageGroup": "25"
+  },
+  {
+    "customer_price_would_pay": " ",
+    "pic": "https://th.bing.com/th/id/OIP.59_EYpeDFLAVNCSs2hc8WgHaFM?w=235&h=180&c=7&r=0&o=5&pid=1.7",
+    "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/dominic.jpg",
+    "price": "150",
+    "busiest_day": "wednesday",
+    "rating": " ",
+    "webUserId": "12",
+    "userEmail": "dominic@temple.edu",
+    "favoriteFood": "cake",
+    "ageGroup": "30"
+  },
+  {
+    "customer_price_would_pay": "75",
+    "pic": "https://th.bing.com/th/id/OIP.WyQbDFO8bw7GUcvkQXBMuAHaE8?w=254&h=180&c=7&r=0&o=5&pid=1.7",
+    "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/jamie.jpg",
+    "price": "100",
+    "busiest_day": "tuesday",
+    "rating": "8/10",
+    "webUserId": "346",
+    "userEmail": "jamie@gmail.com",
+    "favoriteFood": "fries",
+    "ageGroup": "60"
+  },
+  {
+    "customer_price_would_pay": "80",
+    "pic": "https://th.bing.com/th/id/OIP.CTmA8r_PqTqmB2jufc0CZgHaGB?w=239&h=194&c=7&r=0&o=5&pid=1.7",
+    "image": "http://cis-linux2.temple.edu/~sallyk/pics_users/jamie.jpg",
+    "price": "80",
+    "busiest_day": "monday",
+    "rating": "10/10",
+    "webUserId": "346",
+    "userEmail": "jamie@gmail.com",
+    "favoriteFood": "soup",
+    "ageGroup": "43"
+  }
+]

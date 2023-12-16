@@ -1,0 +1,33 @@
+﻿body {
+    background-color:mediumorchid
+}
+
+#titleNav {
+    /*background-color:orange;*/
+    background-color: darkmagenta;
+}
+
+
+.NavRouter .SubMenu {
+    background-color: aqua;
+    font-family: Britannic;
+}
+
+
+ .NavRouter .SubMenu a {
+     background-color: lightgreen;
+ }
+   
+ 
+.NavRouter .SubMenu a:hover { 
+    color: aqua;
+}
+
+ .NavRouter .SubMenu a:visited {
+    color: mediumorchid;     
+ }
+
+#footer {
+   /* background-color: orange;*/
+    background-color: darkmagenta;
+}
